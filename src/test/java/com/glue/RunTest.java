@@ -7,6 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(dryRun = false,
+                 
+                 junit = "--step-notifications",
                     strict = true,
                     features = ".",
                     monochrome = true,
@@ -17,4 +19,3 @@ import org.junit.runner.RunWith;
 public class RunTest {
 
 }
-Footer

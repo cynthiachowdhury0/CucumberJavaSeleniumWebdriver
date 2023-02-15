@@ -41,16 +41,21 @@
          </dependency>
 
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
+           
+           
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.8.1</version>
+
+                 
+                 
+                 
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>3.8.1</version>
+                 
         </dependency>
 
     </dependencies>
